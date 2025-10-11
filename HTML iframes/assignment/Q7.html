@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Q7 - Login Form</title>
+</head>
+<body>
+    <form>
+        <label>Username: <input type="text" name="username" required></label><br><br>
+        <label>Password: <input type="password" name="password" required></label><br><br>
+        <!-- Hidden CSRF token to prevent Cross-Site Request Forgery -->
+        <input type="hidden" name="csrf_token" value="dummy123">
+        <button type="submit">Login</button>
+    </form>
+</body>
+</html>
