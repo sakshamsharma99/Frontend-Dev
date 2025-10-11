@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Course Registration</title>
+</head>
+<body>
+    <h1>Course Registration Form</h1>
+    <form>
+        <fieldset>
+            <legend>Student Information</legend>
+            <label>Name: <input type="text" name="name" required></label><br><br>
+            <label>Email: <input type="email" name="email" required></label><br><br>
+            <label>Course: 
+                <select name="course" required>
+                    <option value="">Select Course</option>
+                    <option value="html">HTML</option>
+                    <option value="css">CSS</option>
+                    <option value="js">JavaScript</option>
+                </select>
+            </label>
+        </fieldset>
+    </form>
+    <h2>Available Course Schedule</h2>
+    <table border="1">
+        <tr>
+            <th>Day</th>
+            <th>Time</th>
+            <th>Instructor</th>
+        </tr>
+        <tr>
+            <td>Monday</td>
+            <td>10:00 - 12:00</td>
+            <td>Mr. Smith</td>
+        </tr>
+        <tr>
+            <td>Wednesday</td>
+            <td>14:00 - 16:00</td>
+            <td>Ms. Johnson</td>
+        </tr>
+    </table>
+</body>
+</html>
