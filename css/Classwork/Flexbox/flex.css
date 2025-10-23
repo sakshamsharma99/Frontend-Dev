@@ -1,0 +1,31 @@
+.parent {
+    border:2px solid red;
+    height: 700px;
+    width:900px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+
+}
+.child1{
+    border:2px solid blue;
+    height: 200px;
+    width:200px;
+    background-color: brown;
+
+    
+}
+.child2{
+    border:2px solid green;
+    height: 200px;
+    width:200px;
+    background-color: purple;
+}
+.child3{
+    border:2px solid yellow;
+    height: 200px;
+    width:200px;
+    background-color:aqua;
+}

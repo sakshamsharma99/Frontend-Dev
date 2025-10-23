@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Zomato Header</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="Style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="logo">
+          <img src = "image.png" alt = "Zomato Logo" />
+        </div>
+
+        <div class="search-location">
+          <div class="location">
+            <i class="fa-solid fa-location-dot location-icon"></i>
+            <input type="text" class="location-input" value="Mathura" />
+            <i class="fa-solid fa-caret-down"></i>
+          </div>
+
+          <div class="seperator"></div>
+
+          <div class="search-bar">
+            <i class="fa-solid fa-magnifying-glass search-icon"></i>
+            <input
+              type="text"
+              class="search-input"
+              placeholder="Search for restaurant or cuisine"
+            />
+          </div>
+        </div>
+
+        <div class="buttons">
+          <a href="#" class="login">Log in</a>
+          <a href="#" class="signup">Sign up</a>
+        </div>
+      </div>
+    </header>
+
+    
+    <!-- Navigation Section -->
+    <nav class="nav-section">
+      <div class="nav-container">
+        <a href="#" class="nav-item active">
+          <div class="nav-icon active">
+            <img src="navigation-items/dining.png" alt="Dining Out">
+          </div>
+          <span class="nav-text">Dining Out</span>
+        </a>
+        <a href="#" class="nav-item">
+          <div class="nav-icon">
+            <img src="navigation-items/delivery.png" alt="Delivery">
+          </div>
+          <span class="nav-text">Delivery</span>
+        </a>
+        <a href="#" class="nav-item">
+          <div class="nav-icon">
+            <img src="navigation-items/night.png" alt="Nightlife">
+          </div>
+          <span class="nav-text">Nightlife</span>
+        </a>
+      </div>
+    </nav>
+  </body>
+</html>
