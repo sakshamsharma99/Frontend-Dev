@@ -1,0 +1,39 @@
+/* CSS Selectors Practice — styles with comments */
+/* Base typography and layout */
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter, 'Segoe UI', Roboto, Arial, sans-serif;background:#f6fbff;color:#082033}
+header{padding:2rem 1rem;text-align:center}
+.subtitle{color:#627d98;margin-top:.4rem}
+.content{max-width:900px;margin:1.25rem auto;padding:0 1rem;display:grid;gap:1rem}
+
+/* Element selector: targets every <p> element */
+p{color:#16324a;background:linear-gradient(90deg,#f8fbff,#ffffff);padding:.6rem;border-radius:8px}
+
+/* Class selector: targets elements with class .highlight */
+.highlight{border-left:4px solid #ff7a59;padding:.6rem .6rem .6rem .9rem;background:#fff7f2;color:#5a2b1a}
+
+/* ID selector: targets #intro specifically (higher specificity) */
+#intro{background:linear-gradient(90deg,#eef8ff,#ffffff);padding:.65rem;border-radius:8px;border:1px solid rgba(6,28,56,.04)}
+
+/* Attribute selector: targets elements that have data-role="note" */
+/* Useful for targeting dynamic or semantic attributes */
+[data-role="note"]{background:#fffdfa;padding:.6rem;border-radius:8px;border-left:3px solid #ffd36b}
+
+/* Child combinator: targets direct p children of .box */
+.box > p{font-weight:600;color:#0b3b6f}
+
+/* Descendant selector: targets p elements anywhere inside .box */
+.box p{margin-top:.35rem}
+
+/* Attribute value selector: targets elements with data-state="active" */
+[data-state="active"]{color:#0b633d;background:#f1fff6;padding:.45rem;border-radius:6px;border:1px solid rgba(11,99,61,.08)}
+
+/* Adjacent sibling or general sibling selectors could be added to demonstrate + or ~ */
+
+/* Links with title attribute get a subtle decoration */
+a[title]{text-decoration:underline dotted; color:#0b63d6}
+
+/* Footer spacing */
+footer{padding:1rem;text-align:center;color:#6b7f91}
+
+/* End of file: selectors practice */

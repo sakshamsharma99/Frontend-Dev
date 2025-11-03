@@ -1,0 +1,60 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>CSS Selectors Practice — Ques 4</title>
+    <!-- Author: Taylor Sharma (default) -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header>
+      <h1>CSS Selectors Practice</h1>
+      <p class="subtitle">Examples of element, class, ID, attribute, combinator selectors and more. Inspect the CSS comments to learn what each rule targets.</p>
+    </header>
+
+    <main class="content">
+      <section>
+        <h2>Element selector</h2>
+        <p>This paragraph is styled using an element selector (p).</p>
+      </section>
+
+      <section>
+        <h2>Class selector</h2>
+        <p class="highlight">This paragraph uses the <code>.highlight</code> class.</p>
+      </section>
+
+      <section>
+        <h2>ID selector</h2>
+        <p id="intro">This paragraph is targeted by an ID selector (<code>#intro</code>).</p>
+      </section>
+
+      <section>
+        <h2>Attribute selector</h2>
+        <p data-role="note">This paragraph has a <code>data-role="note"</code> attribute and is styled via an attribute selector.</p>
+      </section>
+
+      <section>
+        <h2>Combinators</h2>
+        <div class="box">
+          <p>Parent .box &gt; child p is highlighted below:</p>
+          <p class="box-child">Direct child paragraph (box &gt; p)</p>
+          <div class="inner">
+            <p class="descendant">Descendant paragraph (.box p) — styled by a descendant selector.</p>
+          </div>
+        </div>
+      </section>
+
+      <section>
+        <h2>Attribute presence and value</h2>
+        <a href="#" title="tooltip">Link with title attribute</a>
+        <a href="#" data-state="active">Link with data-state="active"</a>
+      </section>
+    </main>
+
+    <footer>
+      <small>Lecture 6 — Selectors Practice (Taylor Sharma)</small>
+    </footer>
+  </body>
+</html>

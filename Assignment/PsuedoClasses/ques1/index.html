@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Pseudo-classes Demo — Ques 1</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+
+<body>
+
+  <header class="site-header">
+    <h1>Pseudo-classes Demo</h1>
+    <p class="lead">
+      Examples of :hover, :focus, :active, and :nth-child() applied to links, buttons,
+      lists and form fields. Pure HTML and external CSS.
+    </p>
+  </header>
+
+  <main>
+    <section class="examples">
+
+      <article class="card">
+        <h2>Links — :hover</h2>
+        <p>Hover the links below to view their interactive state.</p>
+        <nav class="links">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Contact</a>
+        </nav>
+      </article>
+
+      <article class="card">
+        <h2>Buttons — :focus & :active</h2>
+        <p>Press Tab to focus a button. Click to view the active state.</p>
+        <div class="buttons">
+          <button class="btn primary">Primary</button>
+          <button class="btn secondary">Secondary</button>
+        </div>
+      </article>
+
+      <article class="card">
+        <h2>List — :nth-child()</h2>
+        <p>Alternate coloring and highlighted 3rd item using pseudo-classes.</p>
+        <ul class="demo-list">
+          <li>First item</li>
+          <li>Second item</li>
+          <li>Third item</li>
+          <li>Fourth item</li>
+          <li>Fifth item</li>
+        </ul>
+      </article>
+
+      <article class="card">
+        <h2>Form Fields — :focus</h2>
+        <p>Focus an input to highlight the active state.</p>
+        <form class="demo-form" action="#">
+          <label>
+            Name
+            <input type="text" placeholder="Type your name">
+          </label>
+
+          <label>
+            Email
+            <input type="email" placeholder="name@example.com">
+          </label>
+        </form>
+      </article>
+
+    </section>
+  </main>
+
+</body>
+</html>

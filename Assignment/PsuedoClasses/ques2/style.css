@@ -1,0 +1,110 @@
+
+:root{
+  --bg: #f1f5fb;
+  --card: #ffffff;
+  --accent: #0b63d6;
+  --muted: #475569;
+  --tooltip-bg: #111827;
+}
+*{box-sizing:border-box}
+body{margin:0;font-family:Inter, 'Segoe UI', Roboto, Arial, sans-serif;background:var(--bg);color:#0b1220;-webkit-font-smoothing:antialiased}
+.wrap{max-width:980px;margin:3.2rem auto;padding:1.4rem;text-align:center}
+.wrap h1{margin:0;font-size:1.6rem;color:#07203a}
+.lead{color:var(--muted);margin-top:.35rem}
+.tooltip-examples{display:flex;gap:1.4rem;justify-content:center;flex-wrap:wrap;margin:2.25rem 0}
+.tip{position:relative;background:linear-gradient(180deg,#fff,#fbfdff);padding:.85rem 1.1rem;border-radius:14px;border:1px solid rgba(11,19,34,.06);cursor:default;min-width:140px;display:inline-flex;align-items:center;gap:.6rem;box-shadow:0 8px 28px rgba(6,18,46,.06)}
+.tip .label{display:inline-block;font-weight:700;color:var(--accent);font-size:1rem;padding:.2rem .45rem}
+
+.tooltip{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%) translateY(8px);
+  bottom:calc(100% + 12px);
+  background:var(--tooltip-bg);
+  color:#fff;
+  padding:.55rem .7rem;
+  border-radius:8px;
+  white-space:nowrap;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .28s cubic-bezier(.2,.9,.2,1), transform .28s cubic-bezier(.2,.9,.2,1);
+  z-index:12;font-size:.95rem;box-shadow:0 10px 26px rgba(2,6,23,.32)
+}
+.tip:hover .tooltip,.tip:focus-within .tooltip{opacity:1;transform:translateX(-50%) translateY(0)}
+/* =======================================================
+   ques2: Tooltip demo — organized stylesheet
+   - variables
+   - base / typography
+   - layout
+   - components
+   - responsive
+   ======================================================= */
+:root{
+  --bg: #f1f5fb;
+  --surface: #ffffff;
+  --accent: #0b63d6;
+  --muted: #475569;
+  --tooltip-bg: #0b1220;
+  --radius: 10px;
+}
+/* ----- base ----- */
+*{box-sizing:border-box}
+html,body{height:100%}
+body{margin:0;font-family:Inter, Poppins, 'Segoe UI', Roboto, Arial, sans-serif;background:var(--bg);color:#0b1220;-webkit-font-smoothing:antialiased}
+
+/* ----- layout ----- */
+.wrap{max-width:980px;margin:3.2rem auto;padding:1.4rem;text-align:center}
+.wrap h1{margin:0;font-size:1.6rem;color:#07203a}
+.lead{color:var(--muted);margin-top:.35rem}
+.tooltip-examples{display:flex;gap:1.4rem;justify-content:center;flex-wrap:wrap;margin:2.25rem 0}
+
+/* ----- components ----- */
+.tip{position:relative;background:linear-gradient(180deg,var(--surface),#fbfdff);padding:.85rem 1.1rem;border-radius:14px;border:1px solid rgba(11,19,34,.06);cursor:default;min-width:140px;display:inline-flex;align-items:center;gap:.6rem;box-shadow:0 8px 24px rgba(6,18,46,.06);transition:transform .16s ease}
+.tip:focus-within{outline:none;transform:translateY(-4px)}
+.tip .label{display:inline-block;font-weight:700;color:var(--accent);font-size:1rem;padding:.2rem .45rem}
+
+.tooltip{
+  position:absolute;
+  left:50%;
+  transform:translateX(-50%) translateY(8px);
+  bottom:calc(100% + 12px);
+  background:var(--tooltip-bg);
+  color:#fff;
+  padding:.55rem .7rem;
+  border-radius:8px;
+  white-space:nowrap;
+  opacity:0;
+  pointer-events:none;
+  transition:opacity .28s cubic-bezier(.2,.9,.2,1), transform .28s cubic-bezier(.2,.9,.2,1);
+  z-index:12;font-size:.95rem;box-shadow:0 10px 26px rgba(2,6,23,.32)
+}
+.tip:hover .tooltip,.tip:focus-within .tooltip{opacity:1;transform:translateX(-50%) translateY(0)}
+.tooltip::after{content:"";position:absolute;left:50%;transform:translateX(-50%);top:100%;width:0;height:0;border-left:7px solid transparent;border-right:7px solid transparent;border-top:7px solid var(--tooltip-bg)}
+
+/* ----- responsive ----- */
+@media (max-width:720px){
+  .tooltip-examples{gap:.9rem}
+  .tip{min-width:120px;padding:.7rem .85rem}
+  .tooltip{font-size:.88rem}
+}
+@media (max-width:420px){
+  .tooltip-examples{flex-direction:column;align-items:center}
+  .tip{width:90%;max-width:360px}
+}
+
+/* EOF */
+
+
+@media (max-width:720px){
+  .tooltip-examples{gap:.9rem}
+  .tip{min-width:120px;padding:.7rem .85rem}
+  .tooltip{font-size:.88rem}
+}
+
+
+@media (max-width:420px){
+  .tooltip-examples{flex-direction:column;align-items:center}
+  .tip{width:90%;max-width:360px}
+}
+
+/* End of file: polished tooltip styles */
