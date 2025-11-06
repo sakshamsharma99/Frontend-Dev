@@ -41,6 +41,7 @@ flex	Flexbox layouts
 css-model	Box model, gradients, borders
 css-classes	Pseudo-classes, animations, transitions
 responsive-css	Media Queries, mobile-first responsive design
+
 🧩 Highlights from My Assignments
 Date	Assignment	Fun Fact / Challenge
 Oct 9	Intro to Web Dev	Created a timetable using <table>—it was messy at first, but I fixed it! 😅
