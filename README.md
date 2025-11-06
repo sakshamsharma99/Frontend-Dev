@@ -43,16 +43,27 @@ css-classes	Pseudo-classes, animations, transitions
 responsive-css	Media Queries, mobile-first responsive design
 
 🧩 Highlights from My Assignments
+
 Date	Assignment	Fun Fact / Challenge
+
 Oct 9	Intro to Web Dev	Created a timetable using <table>—it was messy at first, but I fixed it! 😅
+
 Oct 9	HTML Basics	Built my first mini-webpage; felt like magic seeing it live 🌟
+
 Oct 10	Block & Inline	Played with layouts and discovered the difference firsthand
+
 Oct 10	HTML Iframes	Embedded YouTube & Google Maps—interactive webpages unlocked! 🎬🗺️
-Oct 16	CSS Basics	Experimented with colors, margins, padding, positions—CSS is like painting with code 🎨
+
+Oct 16	CSS Basics	Experimented with colors, margins, padding, positions—CSS is like painting with code �
+
 Oct 16	Flexbox & Grid	Made a responsive calculator layout; Flexbox is life! ⚡
+
 Oct 31	CSS Model	Learned gradients and borders; made things pop visually
+
 Oct 31	Pseudo Classes	Hover effects and simple animations added personality to my pages ✨
+
 Oct 31	Responsive CSS	Mobile-first design made my site look good on all devices 📱
+
 🧰 My Toolbox
 
 Editor: VS Code with Live Server 🔥
