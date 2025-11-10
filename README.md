@@ -44,25 +44,19 @@ responsive-css	Media Queries, mobile-first responsive design
 
 🧩 Highlights from My Assignments
 
-Date	Assignment	Fun Fact / Challenge
+| **Lecture**          | **Topic**               | **Fun Fact / Challenge**                                                                      | **Class Work / Task**                                             |
+| -------------------- | ----------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
+| **Intro to Web Dev** | Getting Started         | Created a timetable using `<table>` — it was messy at first, but I fixed it! 😅               | —                                                                 |
+| **Lecture 1**        | HTML Basics             | Built my first mini webpage; felt like magic seeing it live 🌟                                | Basic Portfolio Page                                              |
+| **Lecture 2**        | Block & Inline Elements | Played with layouts and discovered the difference firsthand 🧱                                | Webpage Layout with Block & Inline elements                       |
+| **Lecture 3**        | HTML Iframes            | Embedded YouTube & Google Maps — interactive webpages unlocked! 🎬🗺️                         | Travel Page with Embedded Map                                     |
+| **Lecture 4**        | CSS Basics              | Experimented with colors, margins, padding, and positions — CSS is like painting with code 🎨 | **Task:** Create a Zomato Header (Logo + Navigation + Search Bar) |
+| **Lecture 5**        | Flexbox & Grid          | Made a responsive calculator layout — Flexbox is life! ⚡                                      | **Class Work:** Calculator Layout                                 |
+| **Lecture 6**        | CSS Box Model           | Learned gradients and borders; made things pop visually 💫                                    | **Task:** Box Transition Animation                                |
+| **Lecture 7**        | Pseudo Classes          | Hover effects and simple animations added personality to my pages ✨                           | Interactive Buttons & Image Hover Effects                         |
+| **Lecture 8**        | Responsive CSS          | Mobile-first design made my site look great on all devices 📱                                 | **Task:** Responsive Box Animation                                |
+| **Lecture 9**        | Bootstrap Basics        | Discovered Bootstrap — styling became 10x faster! 🚀                                          | **Task:** Bootstrap Header + Web Design Template                  |
 
-Oct 9	Intro to Web Dev	Created a timetable using <table>—it was messy at first, but I fixed it! 😅
-
-Oct 9	HTML Basics	Built my first mini-webpage; felt like magic seeing it live 🌟
-
-Oct 10	Block & Inline	Played with layouts and discovered the difference firsthand
-
-Oct 10	HTML Iframes	Embedded YouTube & Google Maps—interactive webpages unlocked! 🎬🗺️
-
-Oct 16	CSS Basics	Experimented with colors, margins, padding, positions—CSS is like painting with code �
-
-Oct 16	Flexbox & Grid	Made a responsive calculator layout; Flexbox is life! ⚡
-
-Oct 31	CSS Model	Learned gradients and borders; made things pop visually
-
-Oct 31	Pseudo Classes	Hover effects and simple animations added personality to my pages ✨
-
-Oct 31	Responsive CSS	Mobile-first design made my site look good on all devices 📱
 
 🧰 My Toolbox
 
