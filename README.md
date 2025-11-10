@@ -30,17 +30,19 @@ Here’s how I explored the world of frontend development, step by step:
 
 Each topic has its own branch, making it easy to track my progress and experiment without breaking anything:
 
-Branch Name	What I Learned
-main	Overview & README
-intro-to-web-dev	Web basics, setup, 3-tier architecture
-html	HTML fundamentals
-html-block-inline	Block & inline elements, layout techniques
-html-iframes	Embedding media
-css	CSS syntax, selectors, backgrounds
-flex	Flexbox layouts
-css-model	Box model, gradients, borders
-css-classes	Pseudo-classes, animations, transitions
-responsive-css	Media Queries, mobile-first responsive design
+| **Branch Name**     | **What I Learned**                            |
+| ------------------- | --------------------------------------------- |
+| `main`              | Overview & README                             |
+| `intro-to-web-dev`  | Web basics, setup, 3-tier architecture        |
+| `html`              | HTML fundamentals                             |
+| `html-block-inline` | Block & inline elements, layout techniques    |
+| `html-iframes`      | Embedding media                               |
+| `css`               | CSS syntax, selectors, backgrounds            |
+| `flex`              | Flexbox layouts                               |
+| `css-model`         | Box model, gradients, borders                 |
+| `css-classes`       | Pseudo-classes, animations, transitions       |
+| `responsive-css`    | Media Queries, mobile-first responsive design |
+
 
 🧩 Highlights from My Assignments
 
@@ -77,3 +79,19 @@ Code is more than syntax—it's logic, design, and creativity
 Responsive design is essential for modern websites
 
 Every failed layout taught me something new 😎
+🌠 What’s Next?
+
+The journey doesn’t stop here 🚀
+Next, I’ll be diving into:
+
+🧑‍💻 JavaScript — adding interactivity and dynamic behavior
+
+⚙️ React.js — building reusable components and single-page apps
+
+☁️ Deployment — hosting my projects using Netlify, Vercel, and GitHub Pages
+
+🎨 Advanced CSS — mastering transitions, keyframes, and UI polish
+
+📚 Projects — recreating real-world interfaces (Zomato Clone, Portfolio 2.0, and a To-Do App)
+
+I’m just getting started — and every push, commit, and PR brings me closer to becoming a Full-Stack Web Developer 💪✨
