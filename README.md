@@ -2,7 +2,7 @@
 
 Hey there! 👋 Welcome to my Frontend Development Repository, a place where I track my journey from a web dev newbie to a responsive design enthusiast. Every line of code, every branch, and every assignment here tells a story of learning, experimenting, and building under the mentorship of Mr. Deepak Prasad and Mr. Sahil Kumar.
 
-** 🛤️ The Roadmap I Followed **
+**🛤️ The Roadmap I Followed**
 
 Here’s how I explored the world of frontend development, step by step:
 
@@ -20,7 +20,7 @@ Here’s how I explored the world of frontend development, step by step:
 | 💎 Bootstrap         | Rapid UI design with prebuilt components              |
 
 
-** 🗂️ How I Organized My Repository **
+**🗂️ How I Organized My Repository**
 
 Each topic has its own branch, making it easy to track my progress and experiment without breaking anything:
 
