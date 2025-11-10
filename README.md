@@ -20,7 +20,7 @@ Here’s how I explored the world of frontend development, step by step:
 | 💎 Bootstrap         | Rapid UI design with prebuilt components              |
 
 
-# 🗂️ How I Organized My Repository
+## 🗂️ How I Organized My Repository
 
 Each topic has its own branch, making it easy to track my progress and experiment without breaking anything:
 
