@@ -2,7 +2,7 @@
 
 Hey there! 👋 Welcome to my Frontend Development Repository, a place where I track my journey from a web dev newbie to a responsive design enthusiast. Every line of code, every branch, and every assignment here tells a story of learning, experimenting, and building under the mentorship of Mr. Deepak Prasad and Mr. Sahil Kumar.
 
-**🛤️ The Roadmap I Followed**
+## 🛤️ The Roadmap I Followed
 
 Here’s how I explored the world of frontend development, step by step:
 
@@ -38,7 +38,7 @@ Each topic has its own branch, making it easy to track my progress and experimen
 | `responsive-css`    | Media Queries, mobile-first responsive design |
 
 
-🧩 Highlights from My Assignments
+## 🧩 Highlights from My Assignments
 
 | **Lecture**          | **Topic**               | **Fun Fact / Challenge**                                                                      | **Class Work / Task**                                             |
 | -------------------- | ----------------------- | --------------------------------------------------------------------------------------------- | ----------------------------------------------------------------- |
@@ -54,7 +54,7 @@ Each topic has its own branch, making it easy to track my progress and experimen
 | **Lecture 9**        | Bootstrap Basics        | Discovered Bootstrap — styling became 10x faster! 🚀                                          | **Task:** Bootstrap Header + Web Design Template                  |
 
 
-🧰 My Developer Toolbox
+## 🧰 My Developer Toolbox
 
 | **Category**       | **Tools**             |
 | ------------------ | --------------------- |
@@ -65,7 +65,7 @@ Each topic has its own branch, making it easy to track my progress and experimen
 | 💎 Framework       | Bootstrap CSS         |
 
 
-💡 Lessons Learned
+## 💡 Lessons Learned
 
 Writing code ≠ just syntax — it’s logic + art 🎨
 
@@ -82,7 +82,8 @@ Every commit, no matter how small, is a step forward 📈
 | 🌍 **Travel Explorer**       | A page with embedded maps & videos — where I learned iframes deeply            |
 | 🧰 **Bootstrap Layout**      | Combined components to make a fast and clean homepage                          |
 
-🌠 What’s Next?
+
+## 🌠 What’s Next?
 
 The journey doesn’t stop here 🚀
 Up next in my roadmap:
