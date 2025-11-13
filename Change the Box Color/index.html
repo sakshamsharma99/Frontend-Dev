@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+</head>
+<body>
+    <div class="d-flex flex-column align-items-center">
+  <h1>Change the Box Color</h1>
+  <div class="color-box" id="color-box"></div>
+  <div class="d-flex justify-content-center mt-4">
+    <button class="btn btn-danger m-2 color-btn" data-color="red">Red</button>
+    <button class="btn btn-primary m-2 color-btn" data-color="blue">Blue</button>
+    <button class =" btn btn-success m-2 color-btn" data-color="green">Green</button>
+    <button class="btn btn-warning m-2 color-btn" data-color="yellow">Yellow</button>
+  </div>
+</div>
+    <script>
+        const colorBox = document.getElementById('color-box');
+const buttons = document.querySelectorAll('.color-btn');
+
+buttons.forEach(button => {
+  button.addEventListener('click', () => {
+    const selectedColor = button.getAttribute('data-color');
+    colorBox.classList.remove('red', 'blue', 'green', 'yellow');
+    colorBox.classList.add(selectedColor);
+  });
+});
+
+    </script>
+</body>
+</html>
