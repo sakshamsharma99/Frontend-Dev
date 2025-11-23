@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+ul li {
+    margin: 8px 0;
+}
+
+button {
+    margin-left: 10px;
+}

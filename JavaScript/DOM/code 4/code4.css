@@ -1,0 +1,34 @@
+body {
+    margin: 0;
+    padding: 40px;
+    font-family: Arial, sans-serif;
+    transition: all 0.3s ease;
+}
+
+/* Default Light Theme */
+body[data-theme="light"] {
+    background: #ffffff;
+    color: #000000;
+}
+
+/* Dark Theme */
+body[data-theme="dark"] {
+    background: #111111;
+    color: #ffffff;
+}
+
+/* Blue Theme */
+body[data-theme="blue"] {
+    background: #003f88;
+    color: #ffffff;
+}
+
+.container {
+    max-width: 600px;
+}
+
+.theme-btn {
+    padding: 10px 20px;
+    margin-right: 8px;
+    cursor: pointer;
+}

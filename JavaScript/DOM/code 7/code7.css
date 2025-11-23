@@ -1,0 +1,100 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 24px;
+  background: #f7f9fb;
+  color: #111;
+}
+
+h2 {
+  margin-bottom: 12px;
+}
+
+.wrap {
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+}
+
+#box {
+  width: 400px;
+  height: 400px;
+  background: linear-gradient(180deg, #ffffff, #eef6ff);
+  border: 2px solid #888;
+  border-radius: 6px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+  position: relative;
+  overflow: hidden;
+  cursor: crosshair;
+}
+
+.info {
+  width: 320px;
+}
+
+#coords {
+  background: #fff;
+  border: 1px solid #ddd;
+  padding: 8px;
+  border-radius: 6px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+#logTitle {
+  margin: 6px 0;
+  font-size: 14px;
+  color: #333;
+}
+
+#log {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  max-height: 240px;
+  overflow: auto;
+  border: 1px solid #eee;
+  background: #fff;
+  border-radius: 6px;
+}
+
+#log li {
+  padding: 6px 8px;
+  border-bottom: 1px dashed #f0f0f0;
+  font-size: 13px;
+  color: #222;
+}
+
+/* small fading dot showing the path (temporary) */
+.path-dot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  background: rgba(0, 123, 255, 0.9);
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  opacity: 0.95;
+  transition: opacity 0.6s linear, transform 0.6s linear;
+}
+
+/* permanent red dot dropped on double-click */
+.red-dot {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background: #e53935;
+  border-radius: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 1px 4px rgba(0,0,0,0.25);
+}
+
+/* buttons */
+button {
+  margin-top: 8px;
+  padding: 8px 12px;
+  border-radius: 6px;
+  border: 1px solid #cfcfcf;
+  background: white;
+  cursor: pointer;
+}
+button:hover { background:#f3f3f3 }

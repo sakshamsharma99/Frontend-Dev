@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    padding: 20px;
+}
+
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 12px;
+}
+
+.gallery-img {
+    width: 100%;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.gallery-img:hover {
+    transform: scale(1.05);
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    inset: 0;
+    background: rgba(0,0,0,0.7);
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-content {
+    background: white;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.modal-content img {
+    max-width: 90vw;
+    max-height: 90vh;
+}

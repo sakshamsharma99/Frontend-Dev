@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="code3.css">
+  
+</head>
+<body>
+    <div class="container">
+
+        <h2>Multi-Step Form</h2>
+
+        
+        <div class="form-step active">
+            <label>Enter Name:</label>
+            <input type="text" id="name">
+            <p class="error" id="errName"></p>
+            <button id="next1">Next</button>
+        </div>
+
+        
+        <div class="form-step">
+            <label>Enter Email:</label>
+            <input type="email" id="email">
+            <p class="error" id="errEmail"></p>
+            <button id="back1">Back</button>
+            <button id="next2">Next</button>
+        </div>
+
+        
+        <div class="form-step">
+            <label>Enter Password:</label>
+            <input type="password" id="password">
+            <p class="error" id="errPassword"></p>
+            <button id="back2">Back</button>
+            <button id="finish">Finish</button>
+        </div>
+
+
+        <div class="form-step" id="summary">
+            <h3>Form Summary</h3>
+            <p><strong>Name:</strong> <span id="sumName"></span></p>
+            <p><strong>Email:</strong> <span id="sumEmail"></span></p>
+            <p><strong>Password:</strong> <span id="sumPassword"></span></p>
+        </div>
+
+    </div>
+      <script src="code3.js"></script>
+</body>
+</html>
