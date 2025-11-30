@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Multi API Dashboard</title>
+
+    <style>
+        .card {
+            width: 250px;
+            padding: 15px;
+            margin: 10px;
+            border-radius: 8px;
+            border: 1px solid #ccc;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .skeleton {
+            height: 20px;
+            background: #eee;
+            border-radius: 5px;
+            margin-bottom: 8px;
+        }
+
+        #warning {
+            color: red;
+            font-weight: bold;
+            margin-top: 15px;
+            display: none;
+        }
+    </style>
+</head>
+<body>
+
+<h2>Multi-API Dashboard</h2>
+
+<div class="card">
+    <h3>Total Users</h3>
+    <div id="usersCount" class="skeleton"></div>
+</div>
+
+<div class="card">
+    <h3>Total Orders</h3>
+    <div id="ordersCount" class="skeleton"></div>
+</div>
+
+<div class="card">
+    <h3>Total Products</h3>
+    <div id="productsCount" class="skeleton"></div>
+</div>
+
+<p id="warning">Some data could not be loaded.</p>
+
+<script src="code4.js"></script>
+
+</body>
+</html>

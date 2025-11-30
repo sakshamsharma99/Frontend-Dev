@@ -1,0 +1,40 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Pratik",
+      "email": "pratik@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "name": "Charu",
+      "email": "charu@gmail.com",
+      "password": "abcd"
+    },
+    {
+      "id": "3",
+      "name": "Aman",
+      "email": "aman@gmail.com",
+      "password": "pass123"
+    },
+    {
+      "id": "4",
+      "name": "Sneha",
+      "email": "sneha@gmail.com",
+      "password": "xyz789"
+    },
+    {
+      "id": "5",
+      "name": "Rahul",
+      "email": "rahul@gmail.com",
+      "password": "rahul@123"
+    },
+    {
+      "id": "32d6",
+      "name": "Pratik Kumar",
+      "email": "volunteer1@gla.ac.in",
+      "password": "123456"
+    }
+  ]
+}
